@@ -5,6 +5,14 @@ body{
             .crayons-header__logo{
                 display: flex;
             }
+            .header__search{
+                    form {
+                        width: 100%;
+                    input{
+                        width: 10px;
+                    }
+                    }
+            }
         .lupita {
             img{
                 margin-right: 15px;

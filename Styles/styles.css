@@ -1,6 +1,12 @@
 body header nav .crayons-header__logo {
   display: flex;
 }
+body header nav .header__search form {
+  width: 100%;
+}
+body header nav .header__search form input {
+  width: 10px;
+}
 body header nav .lupita {
   padding: 0;
   border: none;
