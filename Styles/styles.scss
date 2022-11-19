@@ -5,6 +5,18 @@ body{
             .crayons-header__logo{
                 display: flex;
             }
+        .lupita {
+            img{
+                margin-right: 15px;
+            }
+            padding: 0;
+            border: none;
+            width: 5px;
+            display: flex;
+            align-items: center;
+        }
+                
+            
         }
 
         .logoContainer{
@@ -20,5 +32,6 @@ body{
                 border: 1px solid gray;
             }
         }
+    
     }
 }

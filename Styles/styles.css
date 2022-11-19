@@ -1,6 +1,16 @@
 body header nav .crayons-header__logo {
   display: flex;
 }
+body header nav .lupita {
+  padding: 0;
+  border: none;
+  width: 5px;
+  display: flex;
+  align-items: center;
+}
+body header nav .lupita img {
+  margin-right: 15px;
+}
 body header .logoContainer img {
   width: 50px;
 }
