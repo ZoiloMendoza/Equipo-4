@@ -8,8 +8,17 @@ body{
             .header__search{
                 width: 100%;
                     form {
-                    input{
+                    .input-group{
+                        border: 1px solid #ced4da;
+                        border-radius: 5px;
                         width: 30%;
+                        input{
+                            border: none;
+                        }
+                        button{
+                            background-color: white;
+                            border: none;
+                        }
                     }
                     }
             }

@@ -4,8 +4,17 @@ body header nav .crayons-header__logo {
 body header nav .header__search {
   width: 100%;
 }
-body header nav .header__search form input {
+body header nav .header__search form .input-group {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
   width: 30%;
+}
+body header nav .header__search form .input-group input {
+  border: none;
+}
+body header nav .header__search form .input-group button {
+  background-color: white;
+  border: none;
 }
 body header nav .lupita {
   padding: 0;
