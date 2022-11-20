@@ -1,3 +1,23 @@
+@media screen and (min-width: 765px) {
+  body header nav {
+    position: relative;
+  }
+  body header nav #abueloDlupita {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  body header nav #abueloDlupita .profilePicContainer {
+    display: none;
+  }
+  body header nav #abueloDlupita #papaDlupita {
+    width: 50%;
+    border: 1px solid black;
+  }
+  body header nav #abueloDlupita #papaDlupita #lupita {
+    position: absolute;
+  }
+}
 body header nav .crayons-header__logo {
   display: flex;
 }
