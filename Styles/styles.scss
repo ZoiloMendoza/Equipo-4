@@ -6,10 +6,10 @@ body{
                 display: flex;
             }
             .header__search{
+                width: 100%;
                     form {
-                        width: 100%;
                     input{
-                        width: 10px;
+                        width: 30%;
                     }
                     }
             }
@@ -41,5 +41,24 @@ body{
             }
         }
     
+    }
+}
+
+@media (max-width: 991px) {
+    body{
+        header{
+    
+            nav{
+                .header__search{
+                    display: none;
+                }
+                    
+                
+            
+    
+
+        
+        }
+    }
     }
 }
