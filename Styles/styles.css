@@ -1,1 +1,42 @@
-/*# sourceMappingURL=styles.css.map */
+body header nav .crayons-header__logo {
+  display: flex;
+}
+body header nav .header__search {
+  width: 100%;
+}
+body header nav .header__search form .input-group {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 30%;
+}
+body header nav .header__search form .input-group input {
+  border: none;
+}
+body header nav .header__search form .input-group button {
+  background-color: white;
+  border: none;
+}
+body header nav .lupita {
+  padding: 0;
+  border: none;
+  width: 5px;
+  display: flex;
+  align-items: center;
+}
+body header nav .lupita img {
+  margin-right: 15px;
+}
+body header .logoContainer img {
+  width: 50px;
+}
+body header .profilePicContainer img {
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+@media (max-width: 991px) {
+  body header nav .header__search {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
