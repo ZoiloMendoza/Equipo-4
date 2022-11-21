@@ -1,3 +1,51 @@
+body main .card {
+  font-size: 14px;
+}
+body main .card ul {
+  list-style: none;
+}
+body main .card ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 6px;
+}
+body main .card ul li a:hover {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+body main .card .card__buttons {
+  justify-content: space-between;
+}
+body main .card .card__buttons img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+body main .card .card__buttons img:hover {
+  cursor: pointer;
+}
+body main .card .card__buttons p {
+  margin: 0;
+}
+body main .card .card-img-top {
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .card .card__userDetails img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid gray;
+  margin-right: 0.5rem;
+}
+body main .card .card__userDetails p {
+  margin: 0;
+}
+body main .card .card__userDetails .time {
+  font-size: 0.75rem;
+}
+
 body header nav .crayons-header__logo {
   display: flex;
 }
