@@ -43,6 +43,13 @@ body header .profilePicContainer img {
 body main .card {
   font-size: 14px;
 }
+body main .card a {
+  color: black;
+  text-decoration: none;
+}
+body main .card a:hover {
+  color: #2f3ab2;
+}
 body main .card ul {
   list-style: none;
 }
