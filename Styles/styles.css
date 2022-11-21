@@ -50,7 +50,7 @@ body .main__cards {
     background-color: #f8f8f2;
     position: absolute;
     position: fixed;
-    margin-top: 90vh;
+    margin-top: 88vh;
     z-index: 1;
   }
   body .main__cards #barra ul {
@@ -164,10 +164,10 @@ body .main__cards {
     flex-direction: row;
   }
   body .main__cards .cards__contenido {
-    width: 42%;
+    width: 38%;
   }
 }
-@media only screen and (min-width: 1024px) and (min-width: 1028px) and (max-width: 1700px) {
+@media only screen and (min-width: 1024px) and (min-width: 1028px) and (max-width: 1650px) {
   body .main__cards .cards__contenido {
     width: 70%;
   }
@@ -183,6 +183,14 @@ body .main__cards {
   body .main__cards #main__column-3 #column-3__card-1, body .main__cards #main__column-3 #column-3__card-2 {
     width: 75%;
   }
+  body .main__cards #main__column-3 #column-3__card-1 {
+    border-top: 35px solid rgb(23, 160, 148);
+    border-radius: 10px;
+  }
+  body .main__cards #main__column-3 #column-3__card-1 #card__perfil {
+    position: absolute;
+    margin-top: -35px;
+  }
   body .main__cards #main__column-3 #main__article {
     position: fixed;
   }
@@ -192,8 +200,8 @@ body .main__cards h1 {
   font-weight: 700;
 }
 body .main__cards .card .rounded-circle {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
 }
 body .main__cards .card strong {
   font-size: 17px;
