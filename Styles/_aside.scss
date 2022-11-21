@@ -1,0 +1,9 @@
+
+.list-group-flush>.list-group-item {
+    border-width: 0 0 0 0px;
+  }
+  
+  .list-group-horizontal>.list-group-item+.list-group-item {
+    border-top-width: 0px;
+    border-left-width: 0;
+  }
