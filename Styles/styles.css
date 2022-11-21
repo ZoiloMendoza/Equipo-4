@@ -1,24 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;700;800&display=swap");
-@media screen and (min-width: 765px) {
-  body header nav {
-    position: relative;
-  }
-  body header nav #abueloDlupita {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  body header nav #abueloDlupita .profilePicContainer {
-    display: none;
-  }
-  body header nav #abueloDlupita #papaDlupita {
-    width: 50%;
-    border: 1px solid black;
-  }
-  body header nav #abueloDlupita #papaDlupita #lupita {
-    position: absolute;
-  }
-}
 body header nav .crayons-header__logo {
   display: flex;
 }
@@ -46,9 +26,6 @@ body header .profilePicContainer img {
   border-radius: 50%;
   border: 1px solid gray;
 }
-body body {
-  background-color: #f8f8f2;
-}
 body .main__cards {
   background-color: #f8f8f2;
   margin: 0;
@@ -60,19 +37,11 @@ body .main__cards {
     display: flex;
     flex-direction: column;
   }
-}
-@media screen and (min-width: 765px) {
-  body .main__cards {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media screen and (max-width: 765px) {
   body .main__cards #barra {
     background-color: #f8f8f2;
     position: absolute;
     position: fixed;
-    margin-top: 88vh;
+    margin-top: 90vh;
     z-index: 1;
   }
   body .main__cards #barra ul {
@@ -88,6 +57,10 @@ body .main__cards {
   }
 }
 @media screen and (min-width: 765px) {
+  body .main__cards {
+    display: flex;
+    flex-direction: row;
+  }
   body .main__cards #barra {
     background-color: #f8f8f2;
     display: flex;
@@ -116,7 +89,6 @@ body .main__cards {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    flex: 1;
     width: 8%;
     list-style: none;
     text-decoration: none;
@@ -125,15 +97,13 @@ body .main__cards {
     display: flex;
     flex-direction: row;
   }
+  body .main__cards .cards__contenido {
+    width: 90%;
+  }
 }
 body .main__cards h1 {
   font-family: "Kanit", sans-serif;
   font-weight: 700;
-}
-@media screen and (min-width: 765px) {
-  body .main__cards .cards__contenido {
-    width: 90%;
-  }
 }
 body .main__cards .card .rounded-circle {
   width: 40px;
