@@ -1,0 +1,13 @@
+%centradoColumna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;    
+}
+%centradoCompleto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

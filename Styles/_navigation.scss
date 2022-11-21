@@ -33,9 +33,7 @@
                         text-decoration: none;
                     }
                 }
-        }
-
-        
+        } 
     }
 
     @media only screen and (min-width: 765px) and (max-width: 1023px){
@@ -54,10 +52,7 @@
       }
       #barra{
                 background-color: #f8f8f2; 
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                align-content: center;
+                @extend %centradoColumna;
                 width: 10%;
                 margin-left: 0;
                 margin-right: 0;
@@ -66,18 +61,11 @@
                     width: 20px;
                     position: fixed;
                     z-index: 1;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    align-content: center;
+                    @extend %centradoCompleto;
                     padding: 0;
                     padding-top: 50px;
                     .nav-item{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-content: center;
+                        @extend %centradoCompleto;
                         width: 8%;
                         list-style: none;
                         text-decoration: none;
@@ -92,18 +80,11 @@
         width: 92%;
        }
     }
-
     @media screen and (min-width: 1024px) {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
+        @extend %centradoColumna;
         #barra{
             background-color: #f8f8f2; 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            align-content: center;
+            @extend %centradoColumna;
             width: 5%;
             margin-left: 0;
             margin-right: 0;
@@ -112,18 +93,11 @@
                 width: 20px;
                 position: fixed;
                 z-index: 1;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
+                @extend %centradoCompleto;
                 padding: 0;
                 padding-top: 50px;
                 .nav-item{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-content: center;
+                    @extend %centradoCompleto;
                     width: 8%;
                     list-style: none;
                     text-decoration: none;
@@ -136,8 +110,8 @@
         }
         .cards__contenido{
             width: 38%;
-            @media only screen and (min-width: 1028px) and (max-width: 1650px) {
-            width: 70%;
+            @media only screen and (min-width: 1028px) and (max-width: 1600px) {
+            width: 60%;
             }
 
         }
