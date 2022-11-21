@@ -1,5 +1,6 @@
 @import 'header';
 @import 'variables';
+@import 'card';
 
 body{
     main{
@@ -7,7 +8,7 @@ body{
         height: 10rem;
 
         .page-container{
-            background-color: red;
+            // background-color: red;
             padding: 1rem;
             margin: 0 auto;
 
@@ -18,8 +19,12 @@ body{
             }
 
             .page__centerColumn{
-                background-color: blue;
                 width: 50%;
+                .tabContainer{
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
             }
 
             .page__rightColumn{
