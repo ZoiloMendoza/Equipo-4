@@ -1,24 +1,2 @@
-body{
-    header{
+@use 'header';
 
-        nav{
-            .crayons-header__logo{
-                display: flex;
-            }
-        }
-
-        .logoContainer{
-            img{
-                width: 50px;
-            }
-        }
-
-        .profilePicContainer{
-            img{
-                width: 30px;
-                border-radius: 50%;
-                border: 1px solid gray;
-            }
-        }
-    }
-}
