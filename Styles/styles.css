@@ -1,1 +1,28 @@
-/*# sourceMappingURL=styles.css.map */
+footer {
+  width: 80px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: grey;
+  background: lightgray;
+  border: 1px solid lightgrey;
+}
+footer h3 {
+  font-family: sans-serif;
+}
+footer h3 span {
+  color: blue;
+}
+footer .logoCointainer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .logoCointainer img {
+  width: 30px;
+  height: 30px;
+}
+footer .logoCointainer:hover {
+  background-color: gray;
+}/*# sourceMappingURL=styles.css.map */
