@@ -33,19 +33,6 @@ body header .profilePicContainer img {
   width: 30px;
   border-radius: 50%;
   border: 1px solid gray;
-<<<<<<< HEAD
-}/*# sourceMappingURL=styles.css.map */
-
-.list-group-flush>.list-group-item {
-  border-width: 0 0 0 0px;
-}
-
-.list-group-horizontal>.list-group-item+.list-group-item {
-  border-top-width: 0px;
-  border-left-width: 0;
-}
-
-=======
 }
 
 @media (max-width: 1023px) {
@@ -94,4 +81,3 @@ body main .page-container .page__rightColumn {
     width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
->>>>>>> dev
