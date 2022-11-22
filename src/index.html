@@ -10,15 +10,285 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="shortcut icon" href="../Assets/Imagenes/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../Styles/styles.css" />
-    <title>Document</title>
+    <title>DEV Community 👨‍💻👨‍💻</title>
   </head>
   <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid crayons-header d-flex">
+          <div class="crayons-header__logo">
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+      <nav class="navbar bg-light search" >
+        <div class="container-fluid">               
+         </div>
+            
+            <!-- Inicia menu desplegable -->
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                    DEV Community 👩‍💻👨‍💻
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="">
+                  Some text as placeholder. In real life you can have the
+                  elements you have chosen. Like, text, images, lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Dropdown button
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Termina menu desplegable -->
+            <div class="logoContainer">
+              <img src="../Assets/Imagenes/logo.png" alt="logo" />
+            </div>
+          </div>
+          <div class="header__search ">
+            <form class="d-flex justify-content-between" role="search">
+              <div class="input-group">
+                <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                  <img src="../Assets/iconos/lupita.svg" alt="lupita de busqueda">
+                </button>
+              </div>
+                <button class="btn btn-outline-primary" type="submit">Create Post</button>
+            </form>
+          </div>
+           <div class="crayons-header__option d-flex">
+            <div class="iconContainer lupita navbar-toggler me-3" >
+              <img src="../Assets/iconos/lupita.svg" alt="lupita" />
+            </div>
+          <div class="crayons-header__option d-flex">
+            </div>
+            <div class="iconContainer mx-3">
+              <img src="../Assets/iconos/campana.svg" alt="campana" />
+            </div>
+            <div class="profilePicContainer">
+              <img
+                src="../Assets/Imagenes/profile-picture.png"
+                alt="profile picture"
+              />
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="page-container container-xl d-flex justify-content-between">
+        <section class="page__leftColumn">a</section>
+        <section class="page__centerColumn">
+          <div class="container-lg crayons-header ps-0">
+            <ul class="nav tabContainer">
+                <li class="nav-item">
+                    <a class="nav-link fs-5 fw-bold text-dark" aria-current="page" href="#">Relevant</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link disabled fs-5" href="#">Latest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled fs-5">Top</a>
+                </li>
+            </ul>
+        </div>
+        <div class="articles">
+          <!-- Articulo 1 -->
+          <article class="card m-3 " >
+            <img src="../Assets/Imagenes/article-cover.webp" class="card-img-top" alt="image article">
+            <div class="card-body">
+              <div class="card__userDetails d-flex align-items-center mb-2">
+                <img src="../Assets/Imagenes/vincent.webp" alt="profile picture">
+                <div class="d-flex flex-column">
+                  <p class="fw-bold">Vincent Will</p>
+                  <p class="time">Posted on 16 nov</p>
+                </div>
+              </div>
+              <a href="./article.html">
+                <h3 class="card-title ms-4">Weekly web development resources #124</h4>
+              </a>
+              <ul class="d-flex flex-wrap p-0 ms-4">
+                <li>
+                  <a href="">
+                    #weekly
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    #webdev
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    #beginners
+                  </a>
+                </li>
+                </ul>
+              <div class="card__buttons d-flex ms-4">
+                <div class="interactions d-flex">
+                  <div class="reactions d-flex me-4">
+                    <img src="../Assets/iconos/like.svg" alt="like icon">
+                    <p>2 reactions</p>
+                  </div>
+                  <div class="comments d-flex">
+                    <img src="../Assets/iconos/comment.svg" alt="comment icon">
+                    <p>Add Comment</p>
+                  </div>
+                </div>
+                <div class="tools d-flex">
+                  <p>2 min read</p>
+                  <img src="../Assets/iconos/save.svg" alt="save icon">
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- Article 2 -->
+          <article class="card m-3 " >         
+            <div class="card-body">
+              <div class="card__userDetails d-flex align-items-center mb-2">
+                <img src="../Assets/Imagenes/alicia.webp" alt="profile picture">
+                <div class="d-flex flex-column">
+                  <p class="fw-bold">Alicia Sykes</p>
+                  <p class="time">Posted on 20 nov</p>
+                </div>
+              </div>
+              <a href="#">
+                <h3 class="card-title ms-4">Fun with console.log() 💿</h3>
+              </a>
+              <ul class="d-flex flex-wrap p-0 ms-4">
+                <li>
+                  <a href="">
+                    #webdev
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    #javascript
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    #tooling
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    #productivity
+                  </a>
+                </li>
+                </ul>
+              <div class="card__buttons d-flex ms-4">
+                <div class="interactions d-flex">
+                  <div class="reactions d-flex me-4">
+                    <img src="../Assets/iconos/like.svg" alt="like icon">
+                    <p>118 reactions</p>
+                  </div>
+                  <div class="comments d-flex">
+                    <img src="../Assets/iconos/comment.svg" alt="comment icon">
+                    <p>9 comments</p>
+                  </div>
+                </div>
+                <div class="tools d-flex">
+                  <p>6 min read</p>
+                  <img src="../Assets/iconos/save.svg" alt="save icon">
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- Article 3 -->
+          <article class="card m-3 " >         
+            <div class="card-body">
+              <div class="card__userDetails d-flex align-items-center mb-2">
+                <img src="../Assets/Imagenes/fullstack-pp.webp" alt="profile picture">
+                <div class="d-flex flex-column">
+                  <p class="fw-bold">Full Stack Vault</p>
+                  <p class="time">Posted on 21 nov</p>
+                </div>
+              </div>
+              <a href="3">
+                <h3 class="card-title ms-4">How to learn JavaScript at home (step-by-step) + 5 FREE Resources</h3>
+              </a>
+              <ul class="d-flex flex-wrap p-0 ms-4">
+                <li>
+                  <a href="">
+                    #javascript
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    #webdev
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    #beginners
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    #programming
+                  </a>
+                </li>
+                </ul>
+              <div class="card__buttons d-flex ms-4">
+                <div class="interactions d-flex">
+                  <div class="reactions d-flex me-4">
+                    <img src="../Assets/iconos/like.svg" alt="like icon">
+                    <p>1 reaction</p>
+                  </div>
+                  <div class="comments d-flex">
+                    <img src="../Assets/iconos/comment.svg" alt="comment icon">
+                    <p>2 Comments</p>
+                  </div>
+                </div>
+                <div class="tools d-flex">
+                  <p>2 min read</p>
+                  <img src="../Assets/iconos/save.svg" alt="save icon">
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        </section>
+        <section class="page__rightColumn">c</section>
+      </section>
+    </main>
+    
     <footer class="container-fluid d-flex flex-column justify-content-center align-items-center px-5 py-4">
       <p class="text__azul">
         <span>DEV Community </span> 👩‍💻👨‍💻 — A constructive and inclusive social
@@ -40,5 +310,10 @@
         </a>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
