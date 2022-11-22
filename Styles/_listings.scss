@@ -1,8 +1,12 @@
 .listings{
+    border: 1px solid #ececec;
+    margin-top: 15px;
     ul{
         background-color: #fafafa;
         border-radius: 5px;
         .title{
+            border: 1px solid #ececec;
+            background-color: #fafafa;
             a{
                 text-decoration: none;
                 font-size: 14px;
@@ -13,6 +17,8 @@
             font-weight: 700;
         }
         .elemento-lista{
+            border: 1px solid #ececec;
+            background-color: #fafafa;
             display: flex;
             flex-direction: column;
             a{
@@ -20,15 +26,7 @@
                 text-decoration: none;
  
             }
-            .lista-btn{
-                color: red;
-                a{
-                    margin: 0 auto;
-                }
-                text-align: center;
-                display: flex;
 
-            }
             .New{
                 color: #93561c;
                 background-color: #fcd34d;
@@ -36,10 +34,26 @@
                 text-align: center;
                 border-radius: 5px;
             }
+
+            &:hover{
+                background-color: white;
+                color: #4f58be;
+                cursor: pointer;
+            }
         
         }
         .lista-btn{
-            color: red;
+            text-align: center;
+            font-weight: 600;
+            border: none;
+            background-color: #fafafa;
+            a{
+                color: #414141;
+                text-decoration: none;
+                &:hover{
+                    color: #4550bb;
+                }
+            }
         }
     }
     
