@@ -2,6 +2,7 @@
 @import 'header';
 @import 'variables';
 @import 'card';
+@import 'mongoArticle';
 
 body{
     main{
@@ -27,7 +28,6 @@ body{
             }
 
             .page__rightColumn{
-                background-color: green;
                 width: 25%;
             }
         }
