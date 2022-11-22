@@ -1,9 +1,11 @@
 .listings{
     border: 1px solid #ececec;
     margin-top: 15px;
+    padding-bottom: 0;
     ul{
         background-color: #fafafa;
         border-radius: 5px;
+        padding: 0;
         .title{
             border: 1px solid #ececec;
             background-color: #fafafa;
@@ -59,5 +61,4 @@
     
     background-color: #fafafa;
     border-radius: 10px;
-    padding-bottom: 1rem;
 }

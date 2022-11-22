@@ -472,13 +472,14 @@ footer {
 .listings {
   border: 1px solid #ececec;
   margin-top: 15px;
+  padding-bottom: 0;
   background-color: #fafafa;
   border-radius: 10px;
-  padding-bottom: 1rem;
 }
 .listings ul {
   background-color: #fafafa;
   border-radius: 5px;
+  padding: 0;
 }
 .listings ul .title {
   border: 1px solid #ececec;
