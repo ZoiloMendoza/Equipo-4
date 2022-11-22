@@ -112,7 +112,7 @@ footer .logoContainer {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 footer .logoContainer img {
   width: 30px;
@@ -123,6 +123,12 @@ footer .logoContainer:hover {
   border-radius: 5px;
 }
 
+body header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 body header nav .crayons-header__logo {
   display: flex;
 }
@@ -445,7 +451,7 @@ body main .card .card__userDetails .time {
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 75px;
   }
 }
 .main__cards h1 {
