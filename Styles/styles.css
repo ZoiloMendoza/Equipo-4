@@ -112,6 +112,7 @@ footer .logoContainer {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  margin-bottom: 5rem;
 }
 footer .logoContainer img {
   width: 30px;
