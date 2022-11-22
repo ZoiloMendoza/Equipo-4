@@ -323,12 +323,20 @@ body main .card .card__userDetails .time {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    height: 100vh;
-    width: 16%;
+    width: 20%;
   }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1028px) and (max-width: 1400px) {
+  .main__cards #main__column-3 {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1024px) {
   .main__cards #main__column-3 #column-3__card-1, .main__cards #main__column-3 #column-3__card-2 {
     width: 75%;
   }
+}
+@media screen and (min-width: 1024px) {
   .main__cards #main__column-3 #column-3__card-1 {
     border-top: 35px solid rgb(23, 160, 148);
     border-radius: 10px;
@@ -337,8 +345,13 @@ body main .card .card__userDetails .time {
     position: absolute;
     margin-top: -35px;
   }
+}
+@media screen and (min-width: 1024px) {
   .main__cards #main__column-3 #main__article {
-    position: fixed;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 }
 .main__cards h1 {
@@ -354,6 +367,11 @@ body main .card .card__userDetails .time {
 }
 .main__cards .card small {
   font-size: 11.5px;
+}
+
+footer {
+  margin-top: 100px;
+  z-index: 1;
 }
 
 body main {

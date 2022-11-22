@@ -138,11 +138,14 @@
 
         }
         #main__column-3{
+            
             display: flex;
             flex-direction: column;
             margin-left: 10px;
-            height: 100vh;
-            width: 16%;
+            width: 20%;
+            @media only screen and (min-width: 1028px) and (max-width: 1400px) {
+                width: 30%;
+            }
             #column-3__card-1, #column-3__card-2{
                 width: 75%;
             }
@@ -152,12 +155,14 @@
                 #card__perfil{
                     position: absolute;
                     margin-top: -35px;
-                    
-
                 }
             }
             #main__article{
-                position: fixed;
+                width: 100%;
+                position: sticky;
+                top: 0;
+                
+                
             }
         }
     }
@@ -178,4 +183,10 @@
         }
         
     }
+}
+
+footer{
+    margin-top: 100px;
+    
+    z-index: 1;
 }
