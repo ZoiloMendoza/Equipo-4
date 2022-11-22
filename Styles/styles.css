@@ -1,3 +1,97 @@
+.lista {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lista a {
+  border: 0;
+}
+
+.redes .lista-horizontal {
+  list-style: none;
+  color: #404040;
+  padding: 0;
+}
+.redes .lista-horizontal li {
+  margin: 0 10px;
+}
+
+.page__leftColumn ul {
+  padding: 0;
+  list-style: none;
+}
+.page__leftColumn ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem;
+}
+.page__leftColumn ul li:hover {
+  background-color: #e2e3f3;
+  text-decoration: underline;
+  border-radius: 5px;
+  color: #424db7;
+  cursor: pointer;
+}
+.page__leftColumn ul li p {
+  margin: 0;
+}
+.page__leftColumn ul li img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+.page__leftColumn .otherCategories h2 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0.6rem;
+}
+.page__leftColumn .redesDesktop img {
+  width: 1.5rem;
+}
+.page__leftColumn .myTags .myTags__title h2 {
+  font-size: 1rem;
+}
+.page__leftColumn .thanks {
+  background-color: #fafafa;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+}
+.page__leftColumn .thanks p {
+  color: #404040;
+  font-weight: 800;
+}
+.page__leftColumn .thanks h3 {
+  color: #3b49df;
+  font-size: 18px;
+  font-weight: 800;
+}
+.page__leftColumn .thanks h3:hover {
+  cursor: pointer;
+}
+.page__leftColumn .foremShopCard {
+  background-color: #fafafa;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+}
+.page__leftColumn .foremShopCard img {
+  height: 5rem;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page__leftColumn .foremShopCard h5 {
+  color: #404040;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.page__leftColumn .foremShopCard .card-text {
+  color: #3f4cdf;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.page__leftColumn .foremShopCard .card-text:hover {
+  cursor: pointer;
+}
+
 footer {
   font-family: sans-serif;
   color: grey;
@@ -180,7 +274,6 @@ body main .page-container {
   margin: 0 auto;
 }
 body main .page-container .page__leftColumn {
-  background-color: yellow;
   width: 25%;
 }
 body main .page-container .page__centerColumn {

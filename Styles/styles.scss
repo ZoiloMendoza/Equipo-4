@@ -1,3 +1,4 @@
+@import "aside";
 @import 'footer';
 @import 'header';
 @import 'variables';
@@ -13,7 +14,6 @@ body{
             margin: 0 auto;
 
             .page__leftColumn{
-                background-color: yellow;
                 width: 25%;
 
             }
