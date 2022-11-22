@@ -410,7 +410,7 @@ body main .card .card__userDetails .time {
     flex-direction: row;
   }
   .main__cards .cards__contenido {
-    width: 38%;
+    width: 50%;
   }
 }
 @media only screen and (min-width: 1024px) and (min-width: 1028px) and (max-width: 1400px) {
