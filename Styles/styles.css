@@ -1,3 +1,33 @@
+footer {
+  font-family: sans-serif;
+  color: grey;
+  background: #e5e5e5;
+  border: 1px solid lightgrey;
+  font-size: 14px;
+}
+footer p {
+  text-align: center;
+}
+footer p span {
+  color: #3f4ddf;
+}
+footer .logoContainer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+footer .logoContainer img {
+  width: 30px;
+  height: 30px;
+}
+footer .logoContainer:hover {
+  background-color: #d4d5e5;
+  border-radius: 5px;
+}
+
 body header nav .crayons-header__logo {
   display: flex;
 }
