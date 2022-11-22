@@ -1,7 +1,6 @@
 .main__cards { 
     background-color: #f8f8f2; 
     margin: 0;
-    position: relative;
     
     @media screen and (max-width: 765px){
       display: flex;
@@ -18,9 +17,8 @@
       }
       #barra{
                 background-color: #f8f8f2;
-                position: absolute;
                 position: fixed;
-                margin-top: 85vh;
+                bottom: 0;
                 z-index: 1;
                 ul{
                     width: 100%;
@@ -161,8 +159,6 @@
                 width: 100%;
                 position: sticky;
                 top: 0;
-                
-                
             }
         }
     }
@@ -181,12 +177,9 @@
         small{
             font-size: 11.5px;
         }
-        
     }
 }
-
 footer{
     margin-top: 100px;
-    
     z-index: 1;
 }

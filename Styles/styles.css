@@ -271,7 +271,6 @@ body main .card .card__userDetails .time {
 .main__cards {
   background-color: #f8f8f2;
   margin: 0;
-  position: relative;
 }
 @media screen and (max-width: 765px) {
   .main__cards {
@@ -290,9 +289,8 @@ body main .card .card__userDetails .time {
   }
   .main__cards #barra {
     background-color: #f8f8f2;
-    position: absolute;
     position: fixed;
-    margin-top: 85vh;
+    bottom: 0;
     z-index: 1;
   }
   .main__cards #barra ul {
