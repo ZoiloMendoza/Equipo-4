@@ -4,10 +4,12 @@
 @import 'variables';
 @import 'card';
 @import 'mongoArticle';
+@import 'navigation';
 
 body{
+    background-color: #f8f8f2;
     main{
-        background-color: #f5f5f5;
+        background-color: #f8f8f2;
 
         .page-container{
             padding: 1rem;
