@@ -1,28 +1,29 @@
 footer {
-  width: 80px;
-  box-sizing: border-box;
   font-family: sans-serif;
   color: grey;
-  background: lightgray;
+  background: #e5e5e5;
   border: 1px solid lightgrey;
+  font-size: 14px;
 }
-footer h3 {
-  font-family: sans-serif;
+footer p {
+  text-align: center;
 }
-footer h3 span {
-  color: blue;
+footer p span {
+  color: #3f4ddf;
 }
-footer .logoCointainer {
+footer .logoContainer {
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
-footer .logoCointainer img {
+footer .logoContainer img {
   width: 30px;
   height: 30px;
 }
-footer .logoCointainer:hover {
-  background-color: gray;
+footer .logoContainer:hover {
+  background-color: #d4d5e5;
+  border-radius: 5px;
 }/*# sourceMappingURL=styles.css.map */
