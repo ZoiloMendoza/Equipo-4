@@ -88,6 +88,9 @@
   font-size: 1rem;
   font-weight: 700;
 }
+.page__leftColumn .foremShopCard .card-text:hover {
+  cursor: pointer;
+}
 
 footer {
   font-family: sans-serif;

@@ -105,6 +105,9 @@
       color: #3f4cdf;
       font-size: 1rem;
       font-weight: 700;
+      &:hover{
+        cursor: pointer;
+      }
     }
   }
 }
