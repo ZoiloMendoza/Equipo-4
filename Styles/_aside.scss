@@ -1,9 +1,20 @@
+.lista{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  a{
+    border: 0;
+  }
 
-.list-group-flush>.list-group-item {
-    border-width: 0 0 0 0px;
+}
+.redes{
+  .lista-horizontal{
+    list-style: none;
+    color: #404040;
+    padding: 0;
+
+    li{
+      margin: 0 10px;
+    }
   }
-  
-  .list-group-horizontal>.list-group-item+.list-group-item {
-    border-top-width: 0px;
-    border-left-width: 0;
-  }
+}

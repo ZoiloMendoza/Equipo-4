@@ -1,3 +1,21 @@
+.lista {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lista a {
+  border: 0;
+}
+
+.redes .lista-horizontal {
+  list-style: none;
+  color: #404040;
+  padding: 0;
+}
+.redes .lista-horizontal li {
+  margin: 0 10px;
+}
+
 body header nav .crayons-header__logo {
   display: flex;
 }
